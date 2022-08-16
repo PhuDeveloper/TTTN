@@ -1,6 +1,7 @@
 import { Paper } from "@mui/material";
 import Head from "next/head";
 import Image from "next/image";
+import FormLogin from "../components/FormLogin";
 import HeaderLogin from "../components/Header/HeaderLogin";
 import styles from "../styles/Home.module.css";
 
@@ -15,7 +16,7 @@ export default function Home() {
 
       <HeaderLogin />
       <main className={styles.main}>
-        <Paper elevation={3}>ấdasdas</Paper>
+       <FormLogin/>
       </main>
     </div>
   );
